@@ -11,7 +11,7 @@ public class InventoryController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (GvrController.AppButtonUp) {
+		if (Input.GetKeyUp(KeyCode.JoystickButton0)) {
 			ToggleVisibility();
 		}
 	}

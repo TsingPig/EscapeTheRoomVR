@@ -1,0 +1,2596 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.45f1c2 (60b1a63e558a) revision 6336934'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'zh' Physical Memory: 32547 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Unity Install\2021.3.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/Unity Project/EscapeTheRoomVR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60083
+Successfully changed project path to: E:/Unity/Unity Project/EscapeTheRoomVR
+E:/Unity/Unity Project/EscapeTheRoomVR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [61140] Host "[IP] 192.168.116.1 [Port] 0 [Flags] 2 [Guid] 3975900538 [EditorId] 3975900538 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9149N6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [61140] Host "[IP] 192.168.116.1 [Port] 0 [Flags] 2 [Guid] 3975900538 [EditorId] 3975900538 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9149N6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 55.05 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.63 ms.
+Initialize engine version: 2021.3.45f1c2 (60b1a63e558a)
+[Subsystems] Discovering subsystems at path E:/Unity/Unity Install/2021.3.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Unity Project/EscapeTheRoomVR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Ti (ID=0x2d04)
+    Vendor:   NVIDIA
+    VRAM:     15962 MB
+    Driver:   32.0.15.8157
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Initialize mono
+Mono path[0] = 'E:/Unity/Unity Install/2021.3.45f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Unity Install/2021.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/Unity Install/2021.3.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Unity Install/2021.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001274 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.17 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.827 seconds
+Domain Reload Profiling:
+	ReloadAssembly (828ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (546ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.43 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Package Manager log level set to [2]
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2181ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (2025ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1713ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (1591ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4480 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (70.0 KB). Loaded Objects now: 4932.
+Memory consumption went from 165.8 MB to 165.7 MB.
+Total: 2.891400 ms (FindLiveObjects: 0.276600 ms CreateObjectMapping: 0.210200 ms MarkObjects: 2.307900 ms  DeleteObjects: 0.095700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2400885.121944 seconds.
+  path: Assets/GVRDemo_consolidated_test_plans.json.crdownload
+  artifactKey: Guid(27fd264624c35be4a8f5a801186f67bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GVRDemo_consolidated_test_plans.json.crdownload using Guid(27fd264624c35be4a8f5a801186f67bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.673609 seconds  code(4) message(Build asset version error: assets/gvrdemo_consolidated_test_plans.json.crdownload in SourceAssetDB has modification time of '2025-11-29T02:11:35.7362142Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff74b90169d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff74b908229 (Unity) StackWalker::ShowCallstack
+0x00007ff74c8acc03 (Unity) GetStacktrace
+0x00007ff74cc4ee94 (Unity) GetAssetHashAndValidate
+0x00007ff74cc4a9f8 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff74cc4879c (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff74cbce454 (Unity) CreateAssetVersionBuilder
+0x00007ff74cbd4a36 (Unity) ImportToObjects
+0x00007ff74cbd3763 (Unity) ImportAsset
+0x00007ff74cbf69d1 (Unity) AssetImportWorker::Import
+0x00007ff74cc5f8fe (Unity) <lambda_ae2b34947825c6473fa9d8c55516c6d2>::operator()
+0x00007ff74cca0d12 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff74cc8cbfe (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff74cc8e864 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff74cc9f0fe (Unity) IOService::Run
+0x00007ff74cc71a4f (Unity) AssetImportWorkerClient::Run
+0x00007ff74cc39b93 (Unity) RunAssetImportWorkerClientV2
+0x00007ff74cc39c1b (Unity) RunAssetImporterV2
+0x00007ff74c464878 (Unity) Application::InitializeProject
+0x00007ff74c8b5eb0 (Unity) WinMain
+0x00007ff74dc839ae (Unity) __scrt_common_main_seh
+0x00007ff90bb8e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff90d7dc34c (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/gvrdemo_consolidated_test_plans.json.crdownload in SourceAssetDB has modification time of '2025-11-29T02:11:35.7362142Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff74b90169d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff74b908229 (Unity) StackWalker::ShowCallstack
+0x00007ff74c8acc03 (Unity) GetStacktrace
+0x00007ff74cc4ee94 (Unity) GetAssetHashAndValidate
+0x00007ff74cc4a9f8 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff74cc4879c (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff74cbce454 (Unity) CreateAssetVersionBuilder
+0x00007ff74cbd4a36 (Unity) ImportToObjects
+0x00007ff74cbd3763 (Unity) ImportAsset
+0x00007ff74cbf69d1 (Unity) AssetImportWorker::Import
+0x00007ff74cc5f8fe (Unity) <lambda_ae2b34947825c6473fa9d8c55516c6d2>::operator()
+0x00007ff74cca0d12 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff74cc8cbfe (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff74cc8e864 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff74cc9f0fe (Unity) IOService::Run
+0x00007ff74cc71a4f (Unity) AssetImportWorkerClient::Run
+0x00007ff74cc39b93 (Unity) RunAssetImportWorkerClientV2
+0x00007ff74cc39c1b (Unity) RunAssetImporterV2
+0x00007ff74c464878 (Unity) Application::InitializeProject
+0x00007ff74c8b5eb0 (Unity) WinMain
+0x00007ff74dc839ae (Unity) __scrt_common_main_seh
+0x00007ff90bb8e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff90d7dc34c (ntdll) RtlUserThreadStart
+
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001809 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2028ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1847ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (1470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (1412ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (44.5 KB). Loaded Objects now: 5005.
+Memory consumption went from 165.7 MB to 165.6 MB.
+Total: 2.610200 ms (FindLiveObjects: 0.258300 ms CreateObjectMapping: 0.139700 ms MarkObjects: 2.138400 ms  DeleteObjects: 0.073000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2587ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (2298ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1734ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (1630ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (44.6 KB). Loaded Objects now: 5008.
+Memory consumption went from 165.7 MB to 165.7 MB.
+Total: 4.229100 ms (FindLiveObjects: 0.636600 ms CreateObjectMapping: 0.167100 ms MarkObjects: 3.205600 ms  DeleteObjects: 0.218600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 166.646239 seconds.
+  path: Assets/Test
+  artifactKey: Guid(8f778366e908548fb84427c37a02936c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Test using Guid(8f778366e908548fb84427c37a02936c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46a52f731e9bc09c055ae5d6b97d2b5') in 0.022510 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055261 seconds.
+  path: Assets/Test/BlueBall.mat
+  artifactKey: Guid(06cf2130115704129b37d062db5a54b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Test/BlueBall.mat using Guid(06cf2130115704129b37d062db5a54b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2935aaa09460d7f3c7c24e5c6eb05a') in 0.332081 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Test/GreenBall.mat
+  artifactKey: Guid(e9e5e8787c6e146e9aca24778e44e0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Test/GreenBall.mat using Guid(e9e5e8787c6e146e9aca24778e44e0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1c6e995b926e150dac5ac36f07b9d1') in 0.031408 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/Test/RedBall.mat
+  artifactKey: Guid(4d3c87a5028784f768f555c603ddd26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Test/RedBall.mat using Guid(4d3c87a5028784f768f555c603ddd26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409d71776c4e83dedc1b64a7548e4ca6') in 0.025166 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.383754 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(d94bf5aae6ddc44f6b32ee6274a797db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites using Guid(d94bf5aae6ddc44f6b32ee6274a797db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65152b8bf27973b7c56010b3e1ddc983') in 0.011201 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.393251 seconds.
+  path: Assets/GVRDemo_consolidated_test_plans.json
+  artifactKey: Guid(634239fd969c5cd4789be10ed05ce396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GVRDemo_consolidated_test_plans.json using Guid(634239fd969c5cd4789be10ed05ce396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f344d545f8eec920dbed916bc10ab7f3') in 0.031411 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.160362 seconds.
+  path: Assets/EscapeTheRoom_GVRDemo_source_code_files.json
+  artifactKey: Guid(f48726ac552b53a43941ad86b7090af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/EscapeTheRoom_GVRDemo_source_code_files.json using Guid(f48726ac552b53a43941ad86b7090af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6d06fc16deb298b7306cc853dd65b9') in 0.010948 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.878528 seconds.
+  path: Assets/GoogleVR/Scripts/Controller/GvrArmModelOffsets.cs
+  artifactKey: Guid(4c173f7c6a736fe469d4acc5b108d6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GoogleVR/Scripts/Controller/GvrArmModelOffsets.cs using Guid(4c173f7c6a736fe469d4acc5b108d6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd51bf2a4d815efd1ebd65959f655f17') in 0.023562 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.085688 seconds.
+  path: Assets/GoogleVR/Scripts/Controller/GvrArmModel.cs
+  artifactKey: Guid(7dda4bb2d5509e44e978d2bf56e25d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GoogleVR/Scripts/Controller/GvrArmModel.cs using Guid(7dda4bb2d5509e44e978d2bf56e25d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf5c544ab92db7536d62757a5a72e1e') in 0.015134 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 55.519135 seconds.
+  path: Assets/GoogleVR/Scripts
+  artifactKey: Guid(5f01aa5c8e7de4973aa7785e6b4dc993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GoogleVR/Scripts using Guid(5f01aa5c8e7de4973aa7785e6b4dc993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3455ac051527871b8613b71a9ffbac7') in 0.012948 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.492293 seconds.
+  path: Assets/Scripts/Test
+  artifactKey: Guid(a5216e6c5ccc0664dbf8635171269ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Test using Guid(a5216e6c5ccc0664dbf8635171269ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c83485b27d7be89982acce7c9b0227') in 0.001715 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1959ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1786ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (1459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (1399ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (44.6 KB). Loaded Objects now: 5051.
+Memory consumption went from 170.3 MB to 170.3 MB.
+Total: 2.527900 ms (FindLiveObjects: 0.265500 ms CreateObjectMapping: 0.131500 ms MarkObjects: 2.052900 ms  DeleteObjects: 0.076700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.512523 seconds.
+  path: Assets/Scripts/Furniture/Clock
+  artifactKey: Guid(3cb1494203c2d0a4d8c0c54f6ec385f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Furniture/Clock using Guid(3cb1494203c2d0a4d8c0c54f6ec385f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2d808dda10d093b7cdd1d7f8d41cf5') in 0.019022 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.113958 seconds.
+  path: Assets/Scripts/Furniture/Clock/ClockTimer.cs
+  artifactKey: Guid(e7961a963e9940a44b4f5cf35ce83696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Furniture/Clock/ClockTimer.cs using Guid(e7961a963e9940a44b4f5cf35ce83696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79394fc7ef3fbbdb274a6da599fb3f5f') in 0.008866 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.965 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1965ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1794ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (1454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (1396ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (43.5 KB). Loaded Objects now: 5054.
+Memory consumption went from 170.4 MB to 170.3 MB.
+Total: 2.613800 ms (FindLiveObjects: 0.258700 ms CreateObjectMapping: 0.132800 ms MarkObjects: 2.146300 ms  DeleteObjects: 0.074600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.106960 seconds.
+  path: Assets/Scripts/Actions/AnimateDrawer.cs
+  artifactKey: Guid(311424da740a844ab963ccaad56ef8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Actions/AnimateDrawer.cs using Guid(311424da740a844ab963ccaad56ef8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb03d98b5e42fd3da9eccc1840462515') in 0.019687 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007622 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.371 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2372ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (2063ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1501ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (1412ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (43.5 KB). Loaded Objects now: 5057.
+Memory consumption went from 170.4 MB to 170.3 MB.
+Total: 2.483100 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.123300 ms MarkObjects: 2.048900 ms  DeleteObjects: 0.065400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27.919689 seconds.
+  path: Assets/GoogleVR/Demos/Editor/DemoInputManagerEditor.cs
+  artifactKey: Guid(509a29025635b4c31bb337addea72a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GoogleVR/Demos/Editor/DemoInputManagerEditor.cs using Guid(509a29025635b4c31bb337addea72a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cccce10f027fc298df907cbdb6300f7') in 0.017371 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.967857 seconds.
+  path: Assets/GoogleVR/Demos/Scripts/DemoInputManager.cs
+  artifactKey: Guid(ddd25f1308577456cbaa207901961126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GoogleVR/Demos/Scripts/DemoInputManager.cs using Guid(ddd25f1308577456cbaa207901961126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3ae519a73f17303531c125291239e8') in 0.011676 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.121533 seconds.
+  path: Assets/Scripts/Furniture/Clock/DigitalClockValue.cs
+  artifactKey: Guid(99d3f5635e2a2c94bba763a859e816ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Furniture/Clock/DigitalClockValue.cs using Guid(99d3f5635e2a2c94bba763a859e816ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe71dccf53bcb804c8d29f9d46ca73dc') in 0.011577 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.597482 seconds.
+  path: Assets/Scripts/Furniture/Clock/DigitalClock.cs
+  artifactKey: Guid(21b908ce4d9cbc14489c84c042cae40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Furniture/Clock/DigitalClock.cs using Guid(21b908ce4d9cbc14489c84c042cae40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3bbe648c639b591cae40e4de63c2e9') in 0.011737 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.961 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1961ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1788ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (1467ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (1408ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (43.5 KB). Loaded Objects now: 5060.
+Memory consumption went from 170.4 MB to 170.3 MB.
+Total: 2.501800 ms (FindLiveObjects: 0.268300 ms CreateObjectMapping: 0.139700 ms MarkObjects: 2.023400 ms  DeleteObjects: 0.069500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.952 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1953ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1789ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (1460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (1400ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (43.6 KB). Loaded Objects now: 5063.
+Memory consumption went from 170.4 MB to 170.3 MB.
+Total: 2.562000 ms (FindLiveObjects: 0.274200 ms CreateObjectMapping: 0.153600 ms MarkObjects: 2.059200 ms  DeleteObjects: 0.074100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37.148750 seconds.
+  path: Assets/Scripts/Furniture/DisplaySelectedObject.cs
+  artifactKey: Guid(1bd5b4c54e111e240aa7b6088078e1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Furniture/DisplaySelectedObject.cs using Guid(1bd5b4c54e111e240aa7b6088078e1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a9d9e2aa493419a68c3510204c301a') in 0.017573 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001872 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.965 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1966ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1789ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (1461ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (1402ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (44.6 KB). Loaded Objects now: 5066.
+Memory consumption went from 170.4 MB to 170.4 MB.
+Total: 2.482800 ms (FindLiveObjects: 0.259100 ms CreateObjectMapping: 0.134200 ms MarkObjects: 2.016700 ms  DeleteObjects: 0.071700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.411903 seconds.
+  path: Assets/Scripts/Actions/FindEscape.cs
+  artifactKey: Guid(039fb8407de0f43eea2f8c130a6df149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Actions/FindEscape.cs using Guid(039fb8407de0f43eea2f8c130a6df149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0451d7ddaf2bf86f1b462b8648a3b0b5') in 0.018594 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.953 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1954ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1788ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (1466ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (1407ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (43.6 KB). Loaded Objects now: 5069.
+Memory consumption went from 170.4 MB to 170.4 MB.
+Total: 2.605100 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.186300 ms MarkObjects: 2.061300 ms  DeleteObjects: 0.065600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28.894564 seconds.
+  path: Assets/Scripts/Inspectable.cs
+  artifactKey: Guid(20f309bd30f854a1cb08cabddfbc74e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Inspectable.cs using Guid(20f309bd30f854a1cb08cabddfbc74e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e239177341c61b21596fa0fbafefeee9') in 0.021705 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.238757 seconds.
+  path: Assets/Scripts/Inventory.cs
+  artifactKey: Guid(3652d147b24254c618ce4989e3b9003c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Inventory.cs using Guid(3652d147b24254c618ce4989e3b9003c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229e69e322ee4839b9a4ae9c4d4c2564') in 0.010968 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.008913 seconds.
+  path: Assets/Scripts/InventorySelect.cs
+  artifactKey: Guid(d4e505ab2ffc746b29b95c01a6a8fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/InventorySelect.cs using Guid(d4e505ab2ffc746b29b95c01a6a8fece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a63ea9b9d675037e38c49f7202e358') in 0.012303 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.341653 seconds.
+  path: Assets/Scripts/Lightable.cs
+  artifactKey: Guid(88bc783c768ce4eb29e7f2d95dc4f793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Lightable.cs using Guid(88bc783c768ce4eb29e7f2d95dc4f793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e010661eaa09fdebf9171f5160102e4') in 0.011266 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001855 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.948 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1948ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1782ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (1445ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (1384ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (43.5 KB). Loaded Objects now: 5072.
+Memory consumption went from 170.4 MB to 170.4 MB.
+Total: 2.507200 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.138100 ms MarkObjects: 2.015600 ms  DeleteObjects: 0.078600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12.936666 seconds.
+  path: Assets/Scripts/Actions/MovePillow.cs
+  artifactKey: Guid(85f9854fdebef48de893bf8e6be7bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Actions/MovePillow.cs using Guid(85f9854fdebef48de893bf8e6be7bb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f051d0f004daa86ed0ece88cc2230bfa') in 0.017824 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001910 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.179 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2180ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (2007ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (1680ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (1598ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (43.5 KB). Loaded Objects now: 5075.
+Memory consumption went from 170.4 MB to 170.4 MB.
+Total: 3.556500 ms (FindLiveObjects: 0.580500 ms CreateObjectMapping: 0.159800 ms MarkObjects: 2.726000 ms  DeleteObjects: 0.089000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.388346 seconds.
+  path: Assets/Scripts/Actions/ReplaceFlower.cs
+  artifactKey: Guid(b9a7c98e07a2a4348a8fa4e52d5fd6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Actions/ReplaceFlower.cs using Guid(b9a7c98e07a2a4348a8fa4e52d5fd6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb3be53265f1002f38b4a3c6bc015a8') in 0.022042 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.918 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1919ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1751ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (1444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (1386ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (44.5 KB). Loaded Objects now: 5078.
+Memory consumption went from 170.4 MB to 170.4 MB.
+Total: 2.584400 ms (FindLiveObjects: 0.282500 ms CreateObjectMapping: 0.154300 ms MarkObjects: 2.065800 ms  DeleteObjects: 0.081000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.032795 seconds.
+  path: Assets/GoogleVR/Demos/Scripts/ScrollingUIDemo/Transitions/UIFadeTransition.cs
+  artifactKey: Guid(a4ab599ee1dbcea41b165ae5170d9f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GoogleVR/Demos/Scripts/ScrollingUIDemo/Transitions/UIFadeTransition.cs using Guid(a4ab599ee1dbcea41b165ae5170d9f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb64605525cecb330913e00dcc2f9103') in 0.019346 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.769693 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type1_Marble.obj
+  artifactKey: Guid(58e48c3e3dee5d64a905e7be2eb3d3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type1_Marble.obj using Guid(58e48c3e3dee5d64a905e7be2eb3d3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e0c2ac791214dfb92438b29130f68e') in 0.133654 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type1_PLFull.obj
+  artifactKey: Guid(a0c5d35284ec6534981b77b8bc4c1b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type1_PLFull.obj using Guid(a0c5d35284ec6534981b77b8bc4c1b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63be069268bd1a70ad63b55d90decb45') in 0.042950 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001519 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type7_Woods.obj
+  artifactKey: Guid(6a333269d19416b4ebc0c94fa1f75d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type7_Woods.obj using Guid(6a333269d19416b4ebc0c94fa1f75d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1a34a75994e50265b22c476a122a9d') in 0.038653 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type8_Metals.obj
+  artifactKey: Guid(3a28000b98c34834f9be23889427559c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type8_Metals.obj using Guid(3a28000b98c34834f9be23889427559c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42da37a427a4461a988e321dc8a881c') in 0.060826 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001272 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type13_PLFull.obj
+  artifactKey: Guid(5eb5abedf3308474a8cc8f82cabb5c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type13_PLFull.obj using Guid(5eb5abedf3308474a8cc8f82cabb5c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de4a0f906b53bd176aff4f9adf265fd') in 0.046251 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000910 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type4_Woods.obj
+  artifactKey: Guid(cf07684478afa254bb078124c7ccef68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type4_Woods.obj using Guid(cf07684478afa254bb078124c7ccef68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa94ad511d9fecc0cf972c7afbcbb00') in 0.037103 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001164 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type3_Metals.obj
+  artifactKey: Guid(178ba55e75584a44eb17ff08840bc529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type3_Metals.obj using Guid(178ba55e75584a44eb17ff08840bc529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2c3fa11e69e81fa5e51cc73b6ba0e0') in 0.049035 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001091 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type1_Marble.obj
+  artifactKey: Guid(ddde2478602eefd4bb10b6c8fa841280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type1_Marble.obj using Guid(ddde2478602eefd4bb10b6c8fa841280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34933bea7df5589ff4fe72174256a47') in 0.044130 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001176 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type1_Woods.obj
+  artifactKey: Guid(47c225c862e37fa44b146aa6d47b6409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type1_Woods.obj using Guid(47c225c862e37fa44b146aa6d47b6409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c09df23f7e844807b40333b9526c46a') in 0.045099 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type5_PLFull.obj
+  artifactKey: Guid(d70d179a1a3a6ea428445271ccb6acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type5_PLFull.obj using Guid(d70d179a1a3a6ea428445271ccb6acb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405472fb903c85cd6be5344992eceae7') in 0.037992 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001767 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type4_PLFull.obj
+  artifactKey: Guid(32c13caa28423ef4a90f7f30185f63db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type4_PLFull.obj using Guid(32c13caa28423ef4a90f7f30185f63db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e757bcfdcbaf6ef34e489fcb47bb9f5b') in 0.036338 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001069 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type16_PLFull.obj
+  artifactKey: Guid(d9e0811fbf41bce42aebb9170fa787e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type16_PLFull.obj using Guid(d9e0811fbf41bce42aebb9170fa787e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc040a203e74808e74dbf0308d9acfc') in 0.034747 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001126 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type6_Metals.obj
+  artifactKey: Guid(d747ab760b2089d4fab76046adaa0c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type6_Metals.obj using Guid(d747ab760b2089d4fab76046adaa0c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597b678600bada9badff9d0e431a0cc7') in 0.029959 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000800 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type4_Metals.obj
+  artifactKey: Guid(1db6657c18b77194a9d87af796075c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type4_Metals.obj using Guid(1db6657c18b77194a9d87af796075c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5146ff281217299ea0b9934cf20e34') in 0.032098 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000851 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type11_PLFull.obj
+  artifactKey: Guid(bdf0802041901be4aabd9dc6cab36213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type11_PLFull.obj using Guid(bdf0802041901be4aabd9dc6cab36213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37356557f3e013012d76f8052c69e80d') in 0.031948 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000788 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type3_Woods.obj
+  artifactKey: Guid(30e11d46fa745aa499eb9935de559a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type3_Woods.obj using Guid(30e11d46fa745aa499eb9935de559a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d6b82e78c521ada31a51f4674b8fef') in 0.035178 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001154 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type6_Metals.obj
+  artifactKey: Guid(86863dec2686df3498996ccee9f108ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type6_Metals.obj using Guid(86863dec2686df3498996ccee9f108ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50294dc0076363b681208a435682235f') in 0.032729 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001270 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type6_Woods.obj
+  artifactKey: Guid(4102baa53811b57479865729bf3adaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type6_Woods.obj using Guid(4102baa53811b57479865729bf3adaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee7398298dfda447a1ea13efa2f193c') in 0.032178 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type2_Marble.obj
+  artifactKey: Guid(b7d90309b1e1e554c8c911994f57ad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type2_Marble.obj using Guid(b7d90309b1e1e554c8c911994f57ad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3427a106f7cd4a76b36a2dcbd29b005') in 0.030543 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000985 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type14_PLFull.obj
+  artifactKey: Guid(9700299c0601da74080099d803b78bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type14_PLFull.obj using Guid(9700299c0601da74080099d803b78bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4abd1d13b1d77671d089e0c42666dc1') in 0.028865 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type4_PLFull.obj
+  artifactKey: Guid(6576262b9f16b2f4cb339a1363d33838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type4_PLFull.obj using Guid(6576262b9f16b2f4cb339a1363d33838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ae28a4a5f92d2919ca72aa0a988cfc') in 0.031511 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000603 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type12_PLFull.obj
+  artifactKey: Guid(a1a9cca11b822ae45acfaa2a816b5bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type12_PLFull.obj using Guid(a1a9cca11b822ae45acfaa2a816b5bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58315a423c8d5b81eb3797f8966cffc') in 0.030935 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001567 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type13_PLFull.obj
+  artifactKey: Guid(c28efc27d46539a409bde712cde682b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type13_PLFull.obj using Guid(c28efc27d46539a409bde712cde682b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e40009bf74e4634f9a5c575c890739f') in 0.032461 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001399 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type3_Woods.obj
+  artifactKey: Guid(5465583913528a74d908d8e121c710e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type3_Woods.obj using Guid(5465583913528a74d908d8e121c710e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd6019cfd51a998b0787cbccfdc8890') in 0.032132 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001007 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type9_PLFull.obj
+  artifactKey: Guid(a458b2d3d3df03b4da75f42593bd8982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type9_PLFull.obj using Guid(a458b2d3d3df03b4da75f42593bd8982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0defd620c4bf0a5840b5b6fd57337f9c') in 0.030954 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type3_Marble.obj
+  artifactKey: Guid(e0520d96a7d91474c8be52dc76fa1fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type3_Marble.obj using Guid(e0520d96a7d91474c8be52dc76fa1fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2c6534c366d10aa00bfbd33bebc0e4') in 0.033061 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001645 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type1_PLFull.obj
+  artifactKey: Guid(34e467071e68b274a97debb248cf5449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type1_PLFull.obj using Guid(34e467071e68b274a97debb248cf5449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce494a7744823557b370e7223e00f24d') in 0.033634 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001674 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type4_Woods.obj
+  artifactKey: Guid(0e689a831ab428c4f85174271c72d9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type4_Woods.obj using Guid(0e689a831ab428c4f85174271c72d9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd85fee29600e9d72d412ad2bb7313f') in 0.030964 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001383 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type6_PLFull.obj
+  artifactKey: Guid(d81a620bd634e90479ef4fd8d672acd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type6_PLFull.obj using Guid(d81a620bd634e90479ef4fd8d672acd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f203410907581250151ebea90ebc8da') in 0.031419 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000970 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type5_Woods.obj
+  artifactKey: Guid(0cad5b4b01d18e745a267c5752c061ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type5_Woods.obj using Guid(0cad5b4b01d18e745a267c5752c061ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da397b7e35c9a046e1906661875eccca') in 0.029816 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000855 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type9_PLFull.obj
+  artifactKey: Guid(64a444325cf4a1f42b78b7273035d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type9_PLFull.obj using Guid(64a444325cf4a1f42b78b7273035d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fcac9d1ed5d6f65435d69b4b333d8e') in 0.032271 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001240 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type4_Metals.obj
+  artifactKey: Guid(a6d841e814642d14bafaa008535e80cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type4_Metals.obj using Guid(a6d841e814642d14bafaa008535e80cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227af5b7718cd849b00c1a56c1370d4a') in 0.036151 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001365 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type7_Woods.obj
+  artifactKey: Guid(e37d3c6b69e510742b0d3099dd590590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type7_Woods.obj using Guid(e37d3c6b69e510742b0d3099dd590590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038a2897463d27f7364f8c4c77d1c457') in 0.032756 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001046 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type1_Marble.obj
+  artifactKey: Guid(bef4f1b808c35da439b0828b54653d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type1_Marble.obj using Guid(bef4f1b808c35da439b0828b54653d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49709f0ce5a14192bcda39f99d9eb95') in 0.032653 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001492 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type8_Woods.obj
+  artifactKey: Guid(a4e05e3084f5f67459f89f805fbc5367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type8_Woods.obj using Guid(a4e05e3084f5f67459f89f805fbc5367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9dd8f1859b31c1ab5a081a79dbe751f') in 0.030150 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001982 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type3_Marble.obj
+  artifactKey: Guid(4dafa2ba4940ae0449f459a7439e10de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type3_Marble.obj using Guid(4dafa2ba4940ae0449f459a7439e10de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7e9b8a39efa221deb7ec5e0e1db524') in 0.034296 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000772 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type7_PLFull.obj
+  artifactKey: Guid(a02da3564a1f89443aac34ea80474ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type7_PLFull.obj using Guid(a02da3564a1f89443aac34ea80474ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b823c7a5a5dda990f4863da07c8539b') in 0.032142 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001031 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type8_Metals.obj
+  artifactKey: Guid(0ac88d3ce13b71342bcef48daa82377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type8_Metals.obj using Guid(0ac88d3ce13b71342bcef48daa82377e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28ad6d1402a267e282145c6416f7055') in 0.033279 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001466 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type3_Woods.obj
+  artifactKey: Guid(761900e682d779147832f6607e01b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type3_Woods.obj using Guid(761900e682d779147832f6607e01b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3975ba0571600e5a66fe3411c053321') in 0.035238 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000846 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type2_Woods.obj
+  artifactKey: Guid(3f8a7ce803471e9459398c5ed6a7585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type2_Woods.obj using Guid(3f8a7ce803471e9459398c5ed6a7585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa62d65043ad9f971a5bc0233d1a4a1') in 0.030174 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000972 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type6_Metals.obj
+  artifactKey: Guid(1d954ebfc4a05b7409b7705191a59df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type6_Metals.obj using Guid(1d954ebfc4a05b7409b7705191a59df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e712b0c15dc897ef83595f3dd3abcba') in 0.030298 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000949 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type5_Woods.obj
+  artifactKey: Guid(72ea0db4eefcc534bba61ab89992f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type5_Woods.obj using Guid(72ea0db4eefcc534bba61ab89992f251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78451006a6f7c1b13d89b53652d325b1') in 0.031687 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001233 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type8_Woods.obj
+  artifactKey: Guid(07a7307cc550d0b4a891aba829b57c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type8_Woods.obj using Guid(07a7307cc550d0b4a891aba829b57c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e923d535ceb28b2325d659902fe046') in 0.034855 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000951 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type5_Woods.obj
+  artifactKey: Guid(defab3430493bb04892f1f43370a58ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type5_Woods.obj using Guid(defab3430493bb04892f1f43370a58ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fb5fa15dcdd49e26347dd2215f1ff7') in 0.037984 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000931 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type1_PLFull.obj
+  artifactKey: Guid(8bd2863336a2fba43897593b2681fb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type1_PLFull.obj using Guid(8bd2863336a2fba43897593b2681fb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7867502f7e15ca2e494d4b1f007660b') in 0.040366 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001089 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type5_Metals.obj
+  artifactKey: Guid(326bb9e0905c167409638f43f813e8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type5_Metals.obj using Guid(326bb9e0905c167409638f43f813e8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf24e610e16a426f8de5e6677fa21c0') in 0.037565 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000960 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type7_Metals.obj
+  artifactKey: Guid(53e46b741f0a56b46a0208f7997f7953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type7_Metals.obj using Guid(53e46b741f0a56b46a0208f7997f7953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afee3dfe20be13b0daf34ae31a26a5b') in 0.036338 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type2_Woods.obj
+  artifactKey: Guid(0303a2729d167734dbdc88e06f381a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type2_Woods.obj using Guid(0303a2729d167734dbdc88e06f381a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b64bf0409eccdc90a64950ca8fb5b8') in 0.031527 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000999 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type9_PLFull.obj
+  artifactKey: Guid(1c79fbc1778ac364e95207fb091653a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type9_PLFull.obj using Guid(1c79fbc1778ac364e95207fb091653a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db98681ff2f2dfb6e9a767d9e4f633b0') in 0.031785 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001781 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type9_PLFull.obj
+  artifactKey: Guid(347f401ee6f354e408be8d1efa20bf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type9_PLFull.obj using Guid(347f401ee6f354e408be8d1efa20bf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937dce03c246c49061d4b740a6c2fd07') in 0.029769 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001306 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type8_PLFull.obj
+  artifactKey: Guid(4fc2bee96b3741441b251957834bcd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type8_PLFull.obj using Guid(4fc2bee96b3741441b251957834bcd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870b752f20faec6fb497e256f03d567a') in 0.033480 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000996 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type6_Woods.obj
+  artifactKey: Guid(cb48eda6a22c1a9458dcc42cd806eb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type6_Woods.obj using Guid(cb48eda6a22c1a9458dcc42cd806eb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d9e4e53ce4dfa43d2f296cde71dcd3') in 0.031714 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001542 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type7_PLFull.obj
+  artifactKey: Guid(840aaaf9e2f25084a85c1228444fd9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type7_PLFull.obj using Guid(840aaaf9e2f25084a85c1228444fd9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ba22728cd2d8a083695e6e1f79e4b0') in 0.029773 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001102 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type8_PLFull.obj
+  artifactKey: Guid(3aa03c5f7430bf640b6b4dab98f7d047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type8_PLFull.obj using Guid(3aa03c5f7430bf640b6b4dab98f7d047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34db3cc7221aab4b5e202137cc824cfc') in 0.030326 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001064 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type14_PLFull.obj
+  artifactKey: Guid(9c25bee21d608f846940f6400e577a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type14_PLFull.obj using Guid(9c25bee21d608f846940f6400e577a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ac410806edd397a2e715d563400fc3') in 0.030944 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000775 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type1_PLFull.obj
+  artifactKey: Guid(142fdf692fb8e4045a9c2296f0909234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type1_PLFull.obj using Guid(142fdf692fb8e4045a9c2296f0909234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3363a4c40f2f20a187d40f272bdde569') in 0.033058 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000932 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type5_PLFull.obj
+  artifactKey: Guid(7712bda4dfaeef04c9d70cc34b9dfb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type5_PLFull.obj using Guid(7712bda4dfaeef04c9d70cc34b9dfb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10261fb4cfdf1013292c379f87ced8f4') in 0.034823 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000835 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type16_PLFull.obj
+  artifactKey: Guid(531d3c74cbb497646b89ae4c17f02d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type16_PLFull.obj using Guid(531d3c74cbb497646b89ae4c17f02d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07cf862fbac199e31e2fd40680975e0') in 0.035131 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001366 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type13_PLFull.obj
+  artifactKey: Guid(b3bf143800baf874382ae9e8b9027eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type13_PLFull.obj using Guid(b3bf143800baf874382ae9e8b9027eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e9c73fc5ec7f525ca3e4ad586d7f67') in 0.031947 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001001 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type4_Woods.obj
+  artifactKey: Guid(c3b8950a174e7ab46be05e2b17f93c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type4_Woods.obj using Guid(c3b8950a174e7ab46be05e2b17f93c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58622136a899ebbee1156b0e6ca556e7') in 0.033674 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000688 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type8_Woods.obj
+  artifactKey: Guid(8a6f3506328e3bb428175faaa36339f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type8_Woods.obj using Guid(8a6f3506328e3bb428175faaa36339f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49bc6c52295c693360989785f8556dd') in 0.031985 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000961 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type4_Metals.obj
+  artifactKey: Guid(79a4c0eb53040f94cb029836571761b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type4_Metals.obj using Guid(79a4c0eb53040f94cb029836571761b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630235f2c1a411fb2da197fa6919f463') in 0.033411 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001009 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type8_Woods.obj
+  artifactKey: Guid(151a5459fed23f045be23d0ed32bdd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type8_Woods.obj using Guid(151a5459fed23f045be23d0ed32bdd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdee0f165171edaa446fc59705b37a3') in 0.033723 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001193 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type4_Marble.obj
+  artifactKey: Guid(956d9297314198c4d982892bf860a015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type4_Marble.obj using Guid(956d9297314198c4d982892bf860a015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a821b5c47e07a1b0669247199ead1c') in 0.034850 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001024 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type1_Metals.obj
+  artifactKey: Guid(1b640913c73e5914b8896804410cf88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type1_Metals.obj using Guid(1b640913c73e5914b8896804410cf88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef946eebf8fc7e6e2833cbb808b3da8a') in 0.032423 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type1_Marble.obj
+  artifactKey: Guid(4862ebcbe1768724a9a8bf31ce680f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type1_Marble.obj using Guid(4862ebcbe1768724a9a8bf31ce680f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544eaa06c71f65ee7bbf67f74a0c0551') in 0.030981 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001072 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type1_Woods.obj
+  artifactKey: Guid(ce4d998df51215d44b1cc1183887f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type1_Woods.obj using Guid(ce4d998df51215d44b1cc1183887f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafb5146f5492e63bdf4d00263563ebd') in 0.032474 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001019 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type12_PLFull.obj
+  artifactKey: Guid(dc5a2b088f6417c45936e4cb6402623e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type12_PLFull.obj using Guid(dc5a2b088f6417c45936e4cb6402623e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57dd40906df34ddb785da9e89b9ebc3') in 0.033774 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000880 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type8_Woods.obj
+  artifactKey: Guid(c6cf300cd6f4b0c459867b4bbfcc7eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type8_Woods.obj using Guid(c6cf300cd6f4b0c459867b4bbfcc7eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b050c11e0222835a951476d0d6e744') in 0.031485 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000828 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type5_PLFull.obj
+  artifactKey: Guid(f5be25bc56aff604b84ef3105d542158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type5_PLFull.obj using Guid(f5be25bc56aff604b84ef3105d542158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5ffcd75cd63c51909334b0a0156f94') in 0.031057 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type5_Woods.obj
+  artifactKey: Guid(24e7ccd8940459445b18f699c54e0bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type5_Woods.obj using Guid(24e7ccd8940459445b18f699c54e0bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1368674bde84fbc178e58e4f65be6515') in 0.031536 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type1_Woods.obj
+  artifactKey: Guid(3e4cb278c05334a44ad739af3bc1d177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type1_Woods.obj using Guid(3e4cb278c05334a44ad739af3bc1d177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158ad9ca146aeb9ea0cee240c5293645') in 0.035733 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001300 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type1_Marble.obj
+  artifactKey: Guid(a8acb565e446fe34f9401e4c23ac9fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type1_Marble.obj using Guid(a8acb565e446fe34f9401e4c23ac9fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d72a96bc06d8b6a82e1d3c835700b30') in 0.034676 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000922 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type3_Metals.obj
+  artifactKey: Guid(e394be01ea36da64ab5f7597caa281c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type3_Metals.obj using Guid(e394be01ea36da64ab5f7597caa281c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3599a461a8a64997a092e5468bbf9ef1') in 0.034395 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001137 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type11_PLFull.obj
+  artifactKey: Guid(9ca6890f173216c43b58e97f078a4228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type11_PLFull.obj using Guid(9ca6890f173216c43b58e97f078a4228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0542ed2c8d6f7997819acdc1a06372') in 0.033108 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001149 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type8_Metals.obj
+  artifactKey: Guid(43bd45d8d450beb4ba3809d4c993d573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type8_Metals.obj using Guid(43bd45d8d450beb4ba3809d4c993d573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abc44a1e245df4f69b53d7acf19a14c') in 0.032225 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type13_PLFull.obj
+  artifactKey: Guid(d04c94ceedee7ee4fb99c3d403c29dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type13_PLFull.obj using Guid(d04c94ceedee7ee4fb99c3d403c29dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbf3df962377281956fab0e53800adb') in 0.036087 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001226 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type7_Woods.obj
+  artifactKey: Guid(a31a0620351435048a7ea3cf374d2d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type7_Woods.obj using Guid(a31a0620351435048a7ea3cf374d2d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90c65d6cc9497dfa8419fb6ec701237') in 0.033005 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001502 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type1_Marble.obj
+  artifactKey: Guid(c6188dc71385d2e429000a99cf7d6505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type1_Marble.obj using Guid(c6188dc71385d2e429000a99cf7d6505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f59070c2d3976eba4f0c733e168151a') in 0.030368 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001082 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type2_Marble.obj
+  artifactKey: Guid(ecf5bb9fb63d64142ae35c216c50e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type2_Marble.obj using Guid(ecf5bb9fb63d64142ae35c216c50e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb08129847d3a60f4b78a756bb2b05f') in 0.033257 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000984 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type1_Woods.obj
+  artifactKey: Guid(9394bf3f681412a4fb9dc112d588aa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type1_Woods.obj using Guid(9394bf3f681412a4fb9dc112d588aa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f39daec0ee363cde989355046af2ee2') in 0.032024 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001110 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type2_Metals.obj
+  artifactKey: Guid(b272b1dfad71e6e43a36fdbf162595ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type2_Metals.obj using Guid(b272b1dfad71e6e43a36fdbf162595ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cc9f1867e1bf79492c100c6b274e4f') in 0.034808 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001162 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type1_Metals.obj
+  artifactKey: Guid(24547daacfad99d47b6377bbb6a12594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type1_Metals.obj using Guid(24547daacfad99d47b6377bbb6a12594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752f826760c91fa12654a80be9812b75') in 0.034034 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000846 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type2_Woods.obj
+  artifactKey: Guid(8c96b100532406b419b567807035b6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type2_Woods.obj using Guid(8c96b100532406b419b567807035b6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da20450a89fce788916c81f2daa8b76') in 0.032450 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000804 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type5_Woods.obj
+  artifactKey: Guid(24f612928fe649a4cb5de12f6182bed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type5_Woods.obj using Guid(24f612928fe649a4cb5de12f6182bed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2657e5899dc5d265fd44325638a7e4c1') in 0.031758 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001288 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type8_PLFull.obj
+  artifactKey: Guid(fbb10dcbb2be0694ca7346ad88098f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type8_PLFull.obj using Guid(fbb10dcbb2be0694ca7346ad88098f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8935139c769e3851828189251983a9') in 0.033556 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001059 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type5_Metals.obj
+  artifactKey: Guid(774342f56ebf1704fa1fa7733bf02195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type5_Metals.obj using Guid(774342f56ebf1704fa1fa7733bf02195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c96bff6fc4bed3db658da4e0d661d4') in 0.033083 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001103 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type11_PLFull.obj
+  artifactKey: Guid(2f98bdc19bdd9c549b3c3f35e30e333f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type11_PLFull.obj using Guid(2f98bdc19bdd9c549b3c3f35e30e333f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253192c6fe87668a10c4d61541fc881f') in 0.032976 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001708 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type10_PLFull.obj
+  artifactKey: Guid(5b6f7795a555ef8498bbbc6fbdf211e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type10_PLFull.obj using Guid(5b6f7795a555ef8498bbbc6fbdf211e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed39b636837e69a30d35e3b3dbb23f60') in 0.034315 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000859 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type4_Metals.obj
+  artifactKey: Guid(65edb4f7669f87e42940ba2f097b1b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type4_Metals.obj using Guid(65edb4f7669f87e42940ba2f097b1b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54158fb202fc04f448eebb921a76e487') in 0.031578 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000923 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type4_Marble.obj
+  artifactKey: Guid(ecfaae38ff2d61644b9f0368c342e734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type4_Marble.obj using Guid(ecfaae38ff2d61644b9f0368c342e734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4661d3156332f756ce94d3cd33909a') in 0.032238 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001007 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type7_PLFull.obj
+  artifactKey: Guid(3073c48cd26d1834ab3955a41d9b4aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type7_PLFull.obj using Guid(3073c48cd26d1834ab3955a41d9b4aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de0e1fc83471672c6b1276dd1f576e7') in 0.035281 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001188 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type2_Metals.obj
+  artifactKey: Guid(c85e872395a380449b000384855abc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type2_Metals.obj using Guid(c85e872395a380449b000384855abc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7018e21ad4917c9dedd152d6ab230de') in 0.035272 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000962 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type16_PLFull.obj
+  artifactKey: Guid(7881e226bb4ed31498f5ae2738053461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type16_PLFull.obj using Guid(7881e226bb4ed31498f5ae2738053461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2cfe0e480b84acb43402b012f6cc67') in 0.031600 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000707 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type4_Marble.obj
+  artifactKey: Guid(b43dd40a6d3fb7f4d9e6806d6c9c8444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type4_Marble.obj using Guid(b43dd40a6d3fb7f4d9e6806d6c9c8444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988830a0754f0fea071e6c94ec9ce5c8') in 0.031647 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type1_Marble.obj
+  artifactKey: Guid(47aabc2a38f07ca4695a1037bedc0def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type1_Marble.obj using Guid(47aabc2a38f07ca4695a1037bedc0def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f1b0dc1c8f76c37827c9f5ca862163') in 0.040688 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000991 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type7_Metals.obj
+  artifactKey: Guid(b19ac656c90a42d45b2f23a93107df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type7_Metals.obj using Guid(b19ac656c90a42d45b2f23a93107df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3a76564d68dfc75a9d0a2665125932') in 0.035314 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000953 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type3_Woods.obj
+  artifactKey: Guid(79d06707739951248929eba969d89a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type3_Woods.obj using Guid(79d06707739951248929eba969d89a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfd427194f5e78dcd06dd068abf4f4a') in 0.033554 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001536 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type3_PLFull.obj
+  artifactKey: Guid(07fe366ef1274ee458a3974dee54e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type3_PLFull.obj using Guid(07fe366ef1274ee458a3974dee54e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cd59370850df363f7d24aaf6209152') in 0.030738 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001142 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type3_Marble.obj
+  artifactKey: Guid(8d99133fe4fb193418497d34a84a7265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type3_Marble.obj using Guid(8d99133fe4fb193418497d34a84a7265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec7e46271c76acf26588baa57038ce8') in 0.031004 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001139 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type10_PLFull.obj
+  artifactKey: Guid(0e0ab3e946e0a5140a7d607f41310d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type10_PLFull.obj using Guid(0e0ab3e946e0a5140a7d607f41310d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe96f4a9f0f61c979136fe5bdb41180') in 0.033536 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001018 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type2_Metals.obj
+  artifactKey: Guid(a5f9764caa62f4e46ac0b117ebe74278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type2_Metals.obj using Guid(a5f9764caa62f4e46ac0b117ebe74278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0be2be0b2379c8658d4d1a8541bd69') in 0.032967 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000698 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type9_PLFull.obj
+  artifactKey: Guid(736e4cc3834258e489839bdce33f415e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type9_PLFull.obj using Guid(736e4cc3834258e489839bdce33f415e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a16bddedee29279561f8ffbdcf6d3cc') in 0.033400 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001371 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type14_PLFull.obj
+  artifactKey: Guid(10c48eff928aca24c9002ccbad0a6948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type14_PLFull.obj using Guid(10c48eff928aca24c9002ccbad0a6948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afd0cb1da58fc9b704bb559d789861e') in 0.033546 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000667 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type1_Metals.obj
+  artifactKey: Guid(1b0c5b8e8780ed443a4b57fab2b6c271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type1_Metals.obj using Guid(1b0c5b8e8780ed443a4b57fab2b6c271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c265a025a5b9264964f09fa536734486') in 0.031869 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001605 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type5_PLFull.obj
+  artifactKey: Guid(b00f7cadf8517f34dbb9515bf1f6c15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type5_PLFull.obj using Guid(b00f7cadf8517f34dbb9515bf1f6c15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6b9bcacda9f1e5c60441494eb8f4db') in 0.035991 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type11_PLFull.obj
+  artifactKey: Guid(d9935d24757e795429dacd52cf32cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type11_PLFull.obj using Guid(d9935d24757e795429dacd52cf32cc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6d8194a4842684e6d9feda33cde110') in 0.034886 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000968 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type5_Metals.obj
+  artifactKey: Guid(eae3af22a51de9e4993ee3448203dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type5_Metals.obj using Guid(eae3af22a51de9e4993ee3448203dcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a299578f6e84550ebc6eac56f1f92bf') in 0.050332 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000954 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type3_Marble.obj
+  artifactKey: Guid(a69990710254ee040b969539acceebb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type3_Marble.obj using Guid(a69990710254ee040b969539acceebb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24b439c82b1785c3850900163d645b3') in 0.043554 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001520 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type8_PLFull.obj
+  artifactKey: Guid(efc9f1ba3e5a10b45a56f2b5973908ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type8_PLFull.obj using Guid(efc9f1ba3e5a10b45a56f2b5973908ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb4a9b9466d264d59e6fa6238d5ab88') in 0.043530 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001627 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type3_Woods.obj
+  artifactKey: Guid(9df80c44fc465e742ac7549eeda49481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type3_Woods.obj using Guid(9df80c44fc465e742ac7549eeda49481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23dd0447d80997cf0716fa84a74d1ff7') in 0.041392 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001307 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type7_PLFull.obj
+  artifactKey: Guid(65ce21bc2b6f4eb46a88b6326da0ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type7_PLFull.obj using Guid(65ce21bc2b6f4eb46a88b6326da0ca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b854042780eb92b0ef1f378ca8e7c22') in 0.056973 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000825 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type9_PLFull.obj
+  artifactKey: Guid(3ea60d93a5e934041aafef0e16e638bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type9_PLFull.obj using Guid(3ea60d93a5e934041aafef0e16e638bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37638984fa902b548a2e1f6b1178b16b') in 0.047843 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001169 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type15_PLFull.obj
+  artifactKey: Guid(6f8cfe5c076796241975937af05536d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type15_PLFull.obj using Guid(6f8cfe5c076796241975937af05536d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359fed9a357fc2ac42d9a9724fd82cf4') in 0.063318 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000930 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type11_PLFull.obj
+  artifactKey: Guid(c7d2c8b5cf2180443bf3366e3f781c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type11_PLFull.obj using Guid(c7d2c8b5cf2180443bf3366e3f781c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e6c3c488f75d66ab3556aff5d9f4df') in 0.034548 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001185 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type2_Metals.obj
+  artifactKey: Guid(9f89050a786ef2846846005507046ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type2_Metals.obj using Guid(9f89050a786ef2846846005507046ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86d7526fdfeeec250a90b6da4906414') in 0.034122 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001237 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type10_PLFull.obj
+  artifactKey: Guid(2b3aacb279f7ba049ba885cee0b26c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type10_PLFull.obj using Guid(2b3aacb279f7ba049ba885cee0b26c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18d17742114c1380a5946ffe73096b1') in 0.030774 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001271 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type1_PLFull.obj
+  artifactKey: Guid(37a0324cf52126447a8460642be3646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type1_PLFull.obj using Guid(37a0324cf52126447a8460642be3646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b184c47803c618ed7cd5cb8af21fc88d') in 0.031238 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001208 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type2_Marble.obj
+  artifactKey: Guid(01ff5c4ddf713fb439550ee98a610a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type2_Marble.obj using Guid(01ff5c4ddf713fb439550ee98a610a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e479c6ac3a49dafb3cd342053650f169') in 0.032838 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001152 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type13_PLFull.obj
+  artifactKey: Guid(cb9d124da14e71c4ca6c8db20ec36d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type13_PLFull.obj using Guid(cb9d124da14e71c4ca6c8db20ec36d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de7f37b60bfbb9860f3294d470f0d9c') in 0.033618 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001122 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type1_Woods.obj
+  artifactKey: Guid(c6c5f8584d04a3a46ad75d7d3156a947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type1_Woods.obj using Guid(c6c5f8584d04a3a46ad75d7d3156a947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a75787a5d3d5518707155b39f10ca4a') in 0.033021 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001531 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type2_Marble.obj
+  artifactKey: Guid(46bbf0ef906e11d4883ffb9f5eec1250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type2_Marble.obj using Guid(46bbf0ef906e11d4883ffb9f5eec1250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1134978b93c9dba7b8430c4c53bbbb56') in 0.034715 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001067 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type8_Metals.obj
+  artifactKey: Guid(be2d5417417eeb347a5c46178a553713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type8_Metals.obj using Guid(be2d5417417eeb347a5c46178a553713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84014a733f5e5bb89792af2260998862') in 0.033815 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000783 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type13_PLFull.obj
+  artifactKey: Guid(74f30da79d8420f4ba1a0758def46275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type13_PLFull.obj using Guid(74f30da79d8420f4ba1a0758def46275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e47a236dfaba6b502a7317c003b72d4') in 0.032380 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001361 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type8_Woods.obj
+  artifactKey: Guid(efc7649525f1bc44b8bad5ae861a1b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type8_Woods.obj using Guid(efc7649525f1bc44b8bad5ae861a1b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051cfeca7f1e099318eb8764c0dc1448') in 0.036066 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001025 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type5_PLFull.obj
+  artifactKey: Guid(22c18b3bfb647cf4cac2f192cc86ed36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type5_PLFull.obj using Guid(22c18b3bfb647cf4cac2f192cc86ed36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a07e0ad33e29fb749000056e6d2d55d') in 0.031768 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000941 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type2_PLFull.obj
+  artifactKey: Guid(7114ff33042caf54fba329477ef75393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type2_PLFull.obj using Guid(7114ff33042caf54fba329477ef75393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc175a8006575b456fe1c07094d9a56') in 0.031871 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type8_Woods.obj
+  artifactKey: Guid(2c2c14393c6acb04692786f1ce17d83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type8_Woods.obj using Guid(2c2c14393c6acb04692786f1ce17d83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7d1d0f3485f8720d9352bdec41f6fa') in 0.031940 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001344 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type8_Metals.obj
+  artifactKey: Guid(fffcbc43122ffce47b24c7f9a4a55e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type8_Metals.obj using Guid(fffcbc43122ffce47b24c7f9a4a55e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a305a51d804b48f58b97c77091fd8f41') in 0.033251 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001051 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type2_PLFull.obj
+  artifactKey: Guid(7e51537329aaca442a9f1a2e9f719991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type2_PLFull.obj using Guid(7e51537329aaca442a9f1a2e9f719991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f98d6206b716e80905790c0edbce70') in 0.034421 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001390 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type2_Woods.obj
+  artifactKey: Guid(42dfdbd2007543f4e886cb36dbe6df75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type2_Woods.obj using Guid(42dfdbd2007543f4e886cb36dbe6df75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44f240db1cf22b01e4099a7d2653d17') in 0.033922 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001074 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type2_Marble.obj
+  artifactKey: Guid(5fdf660cbc6521d44ab58b38d5d1152a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type2_Marble.obj using Guid(5fdf660cbc6521d44ab58b38d5d1152a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09389b9b8845b06420ece54fbbe67366') in 0.032964 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000810 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type1_Marble.obj
+  artifactKey: Guid(ed41a3cfe221fcb439dd49299fccc2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type1_Marble.obj using Guid(ed41a3cfe221fcb439dd49299fccc2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e03ec641977e130178b0e98110e7c6e') in 0.033839 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001719 seconds.
+  path: Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type7_PLFull.obj
+  artifactKey: Guid(a99d1e8dee7cb12438297d3a11265131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Clocks/TableClocks/TableClock_Main_3Type7_PLFull.obj using Guid(a99d1e8dee7cb12438297d3a11265131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5d645e08ba920a4384ec8c3e8aa720') in 0.036894 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001144 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type4_Woods.obj
+  artifactKey: Guid(0b97b41031b1e25429f10f3019a94966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type4_Woods.obj using Guid(0b97b41031b1e25429f10f3019a94966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3658d9822690a0e95e9a0bcaa71425') in 0.034933 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type8_PLFull.obj
+  artifactKey: Guid(ce64964dd29eae74f9fa8e2c5a30cb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Top_5Type8_PLFull.obj using Guid(ce64964dd29eae74f9fa8e2c5a30cb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59934129cbc55ffefa8cdd39687df47') in 0.032404 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000957 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type4_Woods.obj
+  artifactKey: Guid(b536ab227e570584ca3d05036bdaa3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type4_Woods.obj using Guid(b536ab227e570584ca3d05036bdaa3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ca209d1d7e2f2103da4f141b1f00de') in 0.035739 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type5_PLFull.obj
+  artifactKey: Guid(063cbf46935cbd44a954f4a1be893fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type5_PLFull.obj using Guid(063cbf46935cbd44a954f4a1be893fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a362d3557e46f8d5c3bb9db3d25201') in 0.033422 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000816 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type8_Metals.obj
+  artifactKey: Guid(16c3fd5f0154b734f8777de4c4a5d0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type8_Metals.obj using Guid(16c3fd5f0154b734f8777de4c4a5d0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c02758555dded29b2fdc6e03aadaeae') in 0.034171 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001592 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type8_Metals.obj
+  artifactKey: Guid(a67abac406c8f1643a7a6225c3d7f140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type8_Metals.obj using Guid(a67abac406c8f1643a7a6225c3d7f140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa744a21cefc1fa3eaa31f2ff1e072a') in 0.032112 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001058 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type1_Woods.obj
+  artifactKey: Guid(70f8bf94b8e8e3f458915dae743cbffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_DrawerHandle_5Type1_Woods.obj using Guid(70f8bf94b8e8e3f458915dae743cbffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84711ae3062a8a5a3378f0751068c27c') in 0.033058 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000830 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type2_PLFull.obj
+  artifactKey: Guid(0ee88de21301b994b81bfa65bc92bdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type2_PLFull.obj using Guid(0ee88de21301b994b81bfa65bc92bdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9399a4ef5fce8d2ab4086259293a5b') in 0.033541 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001145 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type4_PLFull.obj
+  artifactKey: Guid(7b128d2205130034c82dc6941e59c31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_5Type4_PLFull.obj using Guid(7b128d2205130034c82dc6941e59c31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec4ac01cfeba8c84164ba6dac8bb8a0') in 0.033580 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001268 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type3_Marble.obj
+  artifactKey: Guid(8a54be594bfd8fd42939206f35803c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_First_Drawer_5Type3_Marble.obj using Guid(8a54be594bfd8fd42939206f35803c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8ca7ef33d88a8213c78d750fdb8c68') in 0.032881 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000908 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type7_Metals.obj
+  artifactKey: Guid(2f8e423c67680a94bba75c0c08a432c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_Drawer_5Type7_Metals.obj using Guid(2f8e423c67680a94bba75c0c08a432c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214f5a01c9b7e9bd8bfafa84ef8f76df') in 0.034703 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001532 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type6_PLFull.obj
+  artifactKey: Guid(d0a65994d5397304f924d3248812789b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Second_DrawerHandle_5Type6_PLFull.obj using Guid(d0a65994d5397304f924d3248812789b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2522e1dba188a115f9fbbd3f938d9239') in 0.033267 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001245 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type6_Woods.obj
+  artifactKey: Guid(7b9f006004ee1f94d992f6a873c55892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_Drawer_5Type6_Woods.obj using Guid(7b9f006004ee1f94d992f6a873c55892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4d0fc8309113729ef79528c40138d3') in 0.033027 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001544 seconds.
+  path: Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type14_PLFull.obj
+  artifactKey: Guid(a2fe9a09078561e46ae482ba708eac26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Furniture/Bedroom/DressingTable/DressingTable_Main_Third_DrawerHandle_5Type14_PLFull.obj using Guid(a2fe9a09078561e46ae482ba708eac26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397b66d55a44645391574ae2d1ea321e') in 0.034418 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002930 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Tag 'TempTargetTag' was added to the project.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HenryLab.VRAgent.TagInitializer:AddTagIfNotExists (string) (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:38)
+HenryLab.VRAgent.TagInitializer:.cctor () (at Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs:17)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.henrylab.vragent@79a86fffa7/Editor/TagInitializer.cs Line: 38)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.034 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2034ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1842ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (1468ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (1401ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'GoogleVR/Demos/VideoDemo InsideShader': fallback shader 'Mobile/VertextLit' not found
+Shader 'GoogleVR/Demos/VideoDemo StereoShader': fallback shader 'Mobile/VertextLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 4527 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (35.8 KB). Loaded Objects now: 5084.
+Memory consumption went from 170.9 MB to 170.9 MB.
+Total: 2.477400 ms (FindLiveObjects: 0.271400 ms CreateObjectMapping: 0.148500 ms MarkObjects: 1.991100 ms  DeleteObjects: 0.065600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

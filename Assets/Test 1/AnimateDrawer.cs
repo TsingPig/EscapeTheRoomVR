@@ -8,7 +8,7 @@ public class AnimateDrawer : MonoBehaviour {
     // Use this for initialization
     void Start() {
         origin = transform.parent.position;
-        transform.parent.FindChild ("Knife").transform.parent = transform.parent.transform;
+        transform.parent.Find ("Knife").transform.parent = transform.parent.transform;
     }
 
     // Show transition for opening drawer

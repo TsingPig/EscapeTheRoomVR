@@ -12,6 +12,7 @@ TagManager:
   - vase
   - reflectionProbe
   - digitalLED
+  - TempTargetTag
   layers:
   - Default
   - TransparentFX

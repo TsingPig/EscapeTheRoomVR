@@ -16,10 +16,10 @@ public class Inventory : MonoBehaviour {
 	}
 
 	void Update() {
-        // If app button is pressed, show or hide inventory accordingly
-		if (GvrController.AppButtonUp) {
-			ToggleVisibility();
-		}
+        // 如果 App 按钮被按下，则显示或隐藏背包
+        if (Input.GetKeyDown(KeyCode.JoystickButton1)) {
+            ToggleVisibility();
+        }
 	}
 
 	public void ToggleVisibility() {

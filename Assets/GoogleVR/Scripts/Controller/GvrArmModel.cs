@@ -16,8 +16,6 @@
 // GVR native integration.
 
 using UnityEngine;
-using System.Collections;
-using UnityEngine.VR;
 
 /// The GvrArmModel is a standard interface to interact with a scene with the controller.
 /// It is responsible for:

@@ -1,0 +1,37 @@
+{
+  "summary": {
+    "generatedon": "2025-11-29T02:46:58Z",
+    "parser": "MultiReportParser (2x OpenCoverParser)",
+    "assemblies": 1,
+    "classes": 14,
+    "files": 14,
+    "coveredlines": 149,
+    "uncoveredlines": 197,
+    "coverablelines": 346,
+    "totallines": 576,
+    "linecoverage": 43,
+    "coveredbranches": 0,
+    "totalbranches": 0,
+    "coveredmethods": 33,
+    "totalmethods": 53,
+    "methodcoverage": 62.2
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "Test", "classes": 14, "coverage": 43, "coveredlines": 149, "coverablelines": 346, "totallines": 576, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 62.2, "coveredmethods": 33, "totalmethods": 53, "classesinassembly": [
+        { "name": "AnimateDrawer", "coverage": 36.3, "coveredlines": 4, "coverablelines": 11, "totallines": 22, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 50, "coveredmethods": 1, "totalmethods": 2 },
+        { "name": "ClockTimer", "coverage": 84, "coveredlines": 21, "coverablelines": 25, "totallines": 40, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 },
+        { "name": "Collectable", "coverage": 56.5, "coveredlines": 13, "coverablelines": 23, "totallines": 43, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 75, "coveredmethods": 3, "totalmethods": 4 },
+        { "name": "DigitalClock", "coverage": 52.3, "coveredlines": 22, "coverablelines": 42, "totallines": 58, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 71.4, "coveredmethods": 5, "totalmethods": 7 },
+        { "name": "DigitalClockValue", "coverage": 68.9, "coveredlines": 20, "coverablelines": 29, "totallines": 46, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 },
+        { "name": "DisplaySelectedObject", "coverage": 48.2, "coveredlines": 27, "coverablelines": 56, "totallines": 80, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 66.6, "coveredmethods": 4, "totalmethods": 6 },
+        { "name": "FindEscape", "coverage": 0, "coveredlines": 0, "coverablelines": 17, "totallines": 26, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 1 },
+        { "name": "Inspectable", "coverage": 0, "coveredlines": 0, "coverablelines": 6, "totallines": 18, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 2 },
+        { "name": "Inventory", "coverage": 19.2, "coveredlines": 10, "coverablelines": 52, "totallines": 86, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 55.5, "coveredmethods": 5, "totalmethods": 9 },
+        { "name": "Lightable", "coverage": 35.7, "coveredlines": 5, "coverablelines": 14, "totallines": 28, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 75, "coveredmethods": 3, "totalmethods": 4 },
+        { "name": "MovePillow", "coverage": 63.3, "coveredlines": 19, "coverablelines": 30, "totallines": 43, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 66.6, "coveredmethods": 4, "totalmethods": 6 },
+        { "name": "ReplaceFlower", "coverage": 36.3, "coveredlines": 4, "coverablelines": 11, "totallines": 22, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 50, "coveredmethods": 1, "totalmethods": 2 },
+        { "name": "ShowMessage", "coverage": 21, "coveredlines": 4, "coverablelines": 19, "totallines": 40, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 33.3, "coveredmethods": 1, "totalmethods": 3 },
+        { "name": "Usable", "coverage": 0, "coveredlines": 0, "coverablelines": 11, "totallines": 24, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 1 } ] } ]
+  }
+}

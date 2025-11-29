@@ -1,9 +1,10 @@
 using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI; // 添加UI命名空间
 using UnityStandardAssets.CrossPlatformInput;
 
-[RequireComponent(typeof (GUITexture))]
+[RequireComponent(typeof(Image))] // 用UI.Image替换已过时的GUITexture
 public class ForcedReset : MonoBehaviour
 {
     private void Update()

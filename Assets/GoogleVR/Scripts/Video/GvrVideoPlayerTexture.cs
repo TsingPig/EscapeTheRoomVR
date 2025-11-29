@@ -339,7 +339,7 @@ public class GvrVideoPlayerTexture : MonoBehaviour {
       foreach (Texture2D t in videoTextures) {
         if (t != null) {
           // Free GPU memory immediately.
-          t.Resize(1, 1);
+          t.Reinitialize(1, 1);
           t.Apply();
           // Unity's destroy is lazy.
           Destroy(t);
@@ -563,7 +563,7 @@ public class GvrVideoPlayerTexture : MonoBehaviour {
           if (videoTextures[idx].width != texWidth
               || videoTextures[idx].height != texHeight)
           {
-            videoTextures[idx].Resize(texWidth, texHeight);
+            videoTextures[idx].Reinitialize(texWidth, texHeight);
             videoTextures[idx].Apply();
           }
         } else {
