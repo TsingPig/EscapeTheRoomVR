@@ -21091,178 +21091,6 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_PVRTiledBaking: 0
---- !u!1 &1455714983
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1455714985}
-  - component: {fileID: 1455714984}
-  m_Layer: 0
-  m_Name: FileIdManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1455714984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1455714983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 391b934ff9ea64a4daca9d5340355a02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fileIds:
-  - 166
-  - 103
-  - 202
-  - 149
-  - 97
-  - 197
-  - 213
-  - 264
-  - 277
-  - 57
-  - 27
-  - 255
-  - 195
-  - 265
-  - 108
-  - 230
-  - 167
-  - 138
-  - 92
-  - 65
-  - 24
-  - 148
-  - 163
-  - 94
-  - 130
-  - 95
-  - 83
-  - 36
-  - 2
-  objects:
-  - {fileID: 166}
-  - {fileID: 103}
-  - {fileID: 202}
-  - {fileID: 149}
-  - {fileID: 97}
-  - {fileID: 197}
-  - {fileID: 213}
-  - {fileID: 264}
-  - {fileID: 277}
-  - {fileID: 57}
-  - {fileID: 27}
-  - {fileID: 255}
-  - {fileID: 195}
-  - {fileID: 265}
-  - {fileID: 108}
-  - {fileID: 230}
-  - {fileID: 167}
-  - {fileID: 138}
-  - {fileID: 92}
-  - {fileID: 65}
-  - {fileID: 24}
-  - {fileID: 148}
-  - {fileID: 163}
-  - {fileID: 94}
-  - {fileID: 130}
-  - {fileID: 95}
-  - {fileID: 83}
-  - {fileID: 36}
-  - {fileID: 2}
-  scriptFileIds:
-  - 950
-  - 929
-  - 973
-  - 944
-  - 927
-  - 972
-  - 976
-  - 996
-  - 995
-  - 997
-  - 1009
-  - 1011
-  - 909
-  - 911
-  - 900
-  - 899
-  - 898
-  - 992
-  - 971
-  - 1000
-  - 999
-  - 933
-  - 931
-  - 954
-  - 953
-  - 925
-  - 913
-  - 943
-  - 985
-  - 926
-  - 921
-  - 904
-  - 892
-  scripts:
-  - {fileID: 950}
-  - {fileID: 929}
-  - {fileID: 973}
-  - {fileID: 944}
-  - {fileID: 927}
-  - {fileID: 972}
-  - {fileID: 976}
-  - {fileID: 996}
-  - {fileID: 995}
-  - {fileID: 997}
-  - {fileID: 1009}
-  - {fileID: 1011}
-  - {fileID: 909}
-  - {fileID: 911}
-  - {fileID: 900}
-  - {fileID: 899}
-  - {fileID: 898}
-  - {fileID: 992}
-  - {fileID: 971}
-  - {fileID: 1000}
-  - {fileID: 999}
-  - {fileID: 933}
-  - {fileID: 931}
-  - {fileID: 954}
-  - {fileID: 953}
-  - {fileID: 925}
-  - {fileID: 913}
-  - {fileID: 943}
-  - {fileID: 985}
-  - {fileID: 926}
-  - {fileID: 921}
-  - {fileID: 904}
-  - {fileID: 892}
---- !u!4 &1455714985
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1455714983}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2064373694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21333,7 +21161,7 @@ PrefabInstance:
     - target: {fileID: 1110294159016823261, guid: 7536e93f5e86cf542ad33bdf02ea7b09,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7536e93f5e86cf542ad33bdf02ea7b09, type: 3}
@@ -21353,3 +21181,167 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 0
+--- !u!1 &2138199973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2138199975}
+  - component: {fileID: 2138199974}
+  m_Layer: 0
+  m_Name: FileIdManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2138199974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138199973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391b934ff9ea64a4daca9d5340355a02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileIds:
+  - 166
+  - 103
+  - 202
+  - 149
+  - 97
+  - 197
+  - 264
+  - 277
+  - 57
+  - 27
+  - 255
+  - 195
+  - 265
+  - 108
+  - 167
+  - 92
+  - 65
+  - 9
+  - 24
+  - 148
+  - 163
+  - 94
+  - 130
+  - 95
+  - 68
+  - 83
+  - 36
+  - 2
+  objects:
+  - {fileID: 166}
+  - {fileID: 103}
+  - {fileID: 202}
+  - {fileID: 149}
+  - {fileID: 97}
+  - {fileID: 197}
+  - {fileID: 264}
+  - {fileID: 277}
+  - {fileID: 57}
+  - {fileID: 27}
+  - {fileID: 255}
+  - {fileID: 195}
+  - {fileID: 265}
+  - {fileID: 108}
+  - {fileID: 167}
+  - {fileID: 92}
+  - {fileID: 65}
+  - {fileID: 9}
+  - {fileID: 24}
+  - {fileID: 148}
+  - {fileID: 163}
+  - {fileID: 94}
+  - {fileID: 130}
+  - {fileID: 95}
+  - {fileID: 68}
+  - {fileID: 83}
+  - {fileID: 36}
+  - {fileID: 2}
+  scriptFileIds:
+  - 950
+  - 929
+  - 973
+  - 944
+  - 972
+  - 996
+  - 997
+  - 1011
+  - 1009
+  - 911
+  - 909
+  - 899
+  - 900
+  - 898
+  - 992
+  - 971
+  - 1000
+  - 999
+  - 933
+  - 931
+  - 954
+  - 953
+  - 925
+  - 913
+  - 943
+  - 985
+  - 926
+  - 921
+  - 904
+  - 892
+  scripts:
+  - {fileID: 950}
+  - {fileID: 929}
+  - {fileID: 973}
+  - {fileID: 944}
+  - {fileID: 972}
+  - {fileID: 996}
+  - {fileID: 997}
+  - {fileID: 1011}
+  - {fileID: 1009}
+  - {fileID: 911}
+  - {fileID: 909}
+  - {fileID: 899}
+  - {fileID: 900}
+  - {fileID: 898}
+  - {fileID: 992}
+  - {fileID: 971}
+  - {fileID: 1000}
+  - {fileID: 999}
+  - {fileID: 933}
+  - {fileID: 931}
+  - {fileID: 954}
+  - {fileID: 953}
+  - {fileID: 925}
+  - {fileID: 913}
+  - {fileID: 943}
+  - {fileID: 985}
+  - {fileID: 926}
+  - {fileID: 921}
+  - {fileID: 904}
+  - {fileID: 892}
+--- !u!4 &2138199975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138199973}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
